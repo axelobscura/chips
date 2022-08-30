@@ -275,6 +275,7 @@ const SideBar = () => {
               <li><Link className={`${path === "chart-apexchart" ? "mm-active" : ""}`} to="/chart-apexchart" >Apexchart</Link></li>
             </ul>
           </li>
+          {/*
           <li className={`${bootstrap.includes(path) ? "mm-active" : ""}`}>
             <Link className="has-arrow ai-icon" to="#" >
               <i className="fab fa-bootstrap"></i>
@@ -391,9 +392,10 @@ const SideBar = () => {
                 <li><Link className={`${path === "page-lock-screen" ? "mm-active" : ""}`} to="/page-lock-screen">Lock Screen</Link></li>
               </ul>
           </li>
+          */}
         </MM>
 		<div className="copyright">
-			<p><strong>Invome Admin Dashboard</strong> © 2022 All Rights Reserved</p>
+			<p><strong>Gestión de contenidos</strong> © 2022 Derechos Reservados</p>
 			<p className="fs-12">Made with <span className="heart"></span> by DexignLabs</p>
 		</div>
       </PerfectScrollbar>
