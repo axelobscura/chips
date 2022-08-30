@@ -28,6 +28,7 @@ function App (props) {
     
     let routes = (  
         <Switch>
+            <Route path='/' component={Login} />
             <Route path='/login' component={Login} />
             <Route path='/page-register' component={SignUp} />
             <Route path='/page-forgot-password' component={ForgotPassword} />
@@ -46,7 +47,7 @@ function App (props) {
                     </div>  
                    }
                 >
-                    <Index / >
+                    <Index />
                 </Suspense>
             </>
         );
