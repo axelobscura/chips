@@ -46,17 +46,17 @@ function Login (props) {
                         <img src={logoWhite} alt="" className="ms-3"/>
                       </Link>
                     <div className="login-description">
-                        <h2 className="main-title mb-2">Welcome To Invome</h2>
-                        <p className="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                        <h2 className="main-title mb-2">Bienvenido</h2>
+                        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet porta urna, congue fringilla ipsum vestibulum in. Maecenas interdum lacus ac mollis placerat. Vivamus bibendum in nulla eu mollis.</p>
                         <ul className="social-icons mt-4">
                             <li><Link to={"#"}><i className="fab fa-facebook-f"></i></Link></li>
                             <li><Link to={"#"}><i className="fab fa-twitter"></i></Link></li>
                             <li><Link to={"#"}><i className="fab fa-linkedin-in"></i></Link></li>
                         </ul>
                         <div className="mt-5 bottom-privacy">
-                            <Link to={"#"} className="mr-4">Privacy Policy</Link>
-                            <Link to={"#"} className="mr-4">Contact</Link>
-                            <Link to={"#"} className="">© 20222 DexignLab</Link>
+                            <Link to={"#"} className="mr-4">Política de privacidad</Link>
+                            <Link to={"#"} className="mr-4">Contacto</Link>
+                            <Link to={"#"} className="">© 2022 Desarrollo azul</Link>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@ function Login (props) {
                             <div className="col-xl-12">
                               <div className="auth-form-1">
                                 <div className="mb-4">
-                                    <h3 className="dz-title mb-1">Sign in</h3>
-                                    <p className="">Sign in by entering information below</p>
+                                    <h3 className="dz-title mb-1">Ingreso</h3>
+                                    <p className="">Por favor ingrese sus datos.</p>
                                 </div>
                                 {props.errorMessage && (
                                     <div className='bg-red-300 text-red-900 border border-red-900 p-1 my-2'>
@@ -84,7 +84,7 @@ function Login (props) {
                                 <form onSubmit={onLogin}>
                                     <div className="form-group">
                                         <label className="mb-2 ">
-                                          <strong>Email</strong>
+                                          <strong>Correo electrónico</strong>
                                         </label>
                                         <input type="email" className="form-control"
                                           value={email}
@@ -94,7 +94,7 @@ function Login (props) {
                                       {errors.email && <div className="text-danger fs-12">{errors.email}</div>}
                                     </div>
                                     <div className="form-group">
-                                        <label className="mb-2 "><strong>Password</strong></label>
+                                        <label className="mb-2 "><strong>Contraseña</strong></label>
                                         <input
                                           type="password"
                                           className="form-control"
@@ -118,7 +118,7 @@ function Login (props) {
                                           className="form-check-label"
                                           htmlFor="basic_checkbox_1"
                                         >
-                                          Remember my preference
+                                          Recordarme en este equipo
                                         </label>
                                       </div>
                                     </div>
@@ -128,15 +128,15 @@ function Login (props) {
                                       type="submit"
                                       className="btn btn-primary btn-block"
                                     >
-                                      Sign In
+                                      Ingresar
                                     </button>
                                   </div>
                                 </form>
                                 <div className="new-account mt-2">
                                   <p className="">
-                                    Don't have an account?{" "}
+                                    No tiene una cuenta?{" "}
                                     <Link className="text-primary" to="./page-register">
-                                      Sign up
+                                      Registro
                                     </Link>
                                   </p>
                                 </div>

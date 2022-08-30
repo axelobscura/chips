@@ -49,9 +49,9 @@ const Header = ({ onNote }) => {
 					style={{ textTransform: "capitalize" }}
 				  >
 					{finalName.join(" ").length === 0
-					  ? "Dashboard"
+					  ? "Panel de control"
 					  : finalName.join(" ") === "dashboard dark"
-					  ? "Dashboard"
+					  ? "Panel de control"
 					  : finalName.join(" ")}
 				</div>
             </div>
@@ -60,7 +60,7 @@ const Header = ({ onNote }) => {
 					<div className="input-group search-area">
 						<input type="text" 
 							className={`form-control ${searchBut ? "active" : ""}`}
-							placeholder="Search here..." 
+							placeholder="Buscar..." 
 						/>
 						<span className="input-group-text" onClick={() => setSearchBut(!searchBut)}>
 							<Link to={"#"}><i className="flaticon-381-search-2"></i></Link>
@@ -367,7 +367,7 @@ const Header = ({ onNote }) => {
 					</Dropdown.Menu>
 				</Dropdown> */}
 				<li className="nav-item invoices-btn">
-					<Link to={"#"} className="btn btn-primary ms-5"><i className="far fa-file-alt fs-20 me-2"></i>New Invoices</Link>
+					<Link to={"#"} className="btn btn-primary ms-5"><i className="far fa-file-alt fs-20 me-2"></i>Facturas</Link>
 				</li>
 				
             </ul>
