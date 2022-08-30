@@ -22,7 +22,7 @@ const NavHader = () => {
 				</svg>
 				<div className="brand-title">
 					<h2 className="">inv<span>ome</span></h2>
-					<span className="brand-sub-title">Invoicing Admin</span>					
+					<span className="brand-sub-title">Administrador</span>					
 				</div>
 			</Fragment>
         ) : (

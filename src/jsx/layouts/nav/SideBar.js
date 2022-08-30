@@ -185,7 +185,7 @@ const SideBar = () => {
 				  <div className="d-flex align-items-center sidebar-info">
 					<div>
 					  <span className="font-w700 d-block mb-2">Eren Yeager</span>
-					  <small className="text-end font-w400">Super Admin</small>
+					  <small className="text-end font-w400">Super Administrador</small>
 					</div>
 					<i className="fas fa-sort-down ms-4"></i>
 				  </div>
@@ -200,7 +200,7 @@ const SideBar = () => {
 						<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
 						<circle cx={12} cy={7} r={4} />
 					  </svg>
-					  <span className="ms-2">Profile </span>
+					  <span className="ms-2">Perfil </span>
 					</Link>
 					<Link to="/email-inbox" className="dropdown-item ai-icon">
 					  <svg id="icon-inbox" xmlns="http://www.w3.org/2000/svg" className="text-success me-1" width={18}
@@ -219,7 +219,7 @@ const SideBar = () => {
 		      <li className={`${deshBoard.includes(path) ? "mm-active" : ""}`}>
             <Link className="has-arrow" to="#" >
               <i className="fas fa-home"></i>
-              <span className="nav-text">Dashboard</span>
+              <span className="nav-text">Panel de control</span>
             </Link>
             <ul >
               <li><Link className={`${path === "dashboard" ? "mm-active" : ""}`} to="/dashboard"> Dashboard Light</Link></li>

@@ -60,7 +60,7 @@ const Home = () => {
 										</span>
 										<div className="invoices">
 											<h4>2,478</h4>
-											<span>Total Invoices</span>
+											<span>Facturas actuales</span>
 										</div>
 									</div>
 								</div>
