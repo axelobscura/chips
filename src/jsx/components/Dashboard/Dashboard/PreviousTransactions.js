@@ -8,19 +8,19 @@ const PreviousTransactions = () =>{
 			<div className="card">
 				<div className="card-header d-block d-sm-flex border-0 flex-wrap transactions-tab">
 					<div className="me-3 mb-3">
-						<h4 className="card-title mb-2">Previous Transactions</h4>
+						<h4 className="card-title mb-2">Transacciones previas</h4>
 						<span className="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
 					</div>
 					<div className="card-tabs mt-3 mt-sm-0 mb-3 ">
 						<Nav as="ul" className="nav nav-tabs" >
 							<Nav.Item as="li" className="nav-item">
-								<Nav.Link  eventKey="Monthly" >Monthly</Nav.Link>
+								<Nav.Link  eventKey="Monthly" >Mensual</Nav.Link>
 							</Nav.Item>
 							<Nav.Item as="li" className="nav-item">
-								<Nav.Link  eventKey="Weekly" role="tab">Weekly</Nav.Link>
+								<Nav.Link  eventKey="Weekly" role="tab">Semanal</Nav.Link>
 							</Nav.Item>
 							<Nav.Item as="li" className="nav-item">
-								<Nav.Link  eventKey="Today" >Today</Nav.Link>
+								<Nav.Link  eventKey="Today" >Hoy</Nav.Link>
 							</Nav.Item>
 						</Nav>
 					</div>

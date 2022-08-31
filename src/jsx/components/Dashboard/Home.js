@@ -155,7 +155,7 @@ const Home = () => {
 								<div className="card-body">
 									<div className="row">
 										<div className="col-xl-5 col-xxl-12 col-md-5">
-											<h4 className="fs-20 text-black mb-4 font-w700">Spendings</h4>
+											<h4 className="fs-20 text-black mb-4 font-w700">Gastos</h4>
 											<div className="row">
 												<div className="d-flex col-xl-12 col-xxl-6  col-md-12 col-6 mb-4">
 													<svg className="me-3" width="14" height="54" viewBox="0 0 14 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -251,7 +251,7 @@ const Home = () => {
 							<div className="card">
 								<div className="card-header d-sm-flex d-block border-0 pb-0">
 									<div className="pe-3 me-auto mb-sm-0 mb-3">
-										<h4 className="fs-20 text-black mb-1 font-w700">Transaction Overview</h4>
+										<h4 className="fs-20 text-black mb-1 font-w700">Transacciones</h4>
 										<span className="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
 									</div>
 									<div className="d-flex align-items-center justify-content-between">
@@ -312,7 +312,7 @@ const Home = () => {
 							<div className="card overflow-hidden">
 								<div className="card-header d-sm-flex d-block border-0 pb-0">
 									<div className="mb-sm-0 mb-2">
-										<p className="fs-14 mb-1 font-w700">Weekly Wallet Usage</p>
+										<p className="fs-14 mb-1 font-w700">Uso de Cartera Semanal</p>
 										<span className="mb-0">
 										<svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M11.9999 6L5.99994 -2.62268e-07L-6.10352e-05 6" fill="#2BC155"/>
@@ -348,7 +348,7 @@ const Home = () => {
 									<div className="card">
 										<div className="card-header border-0 pb-0">
 											<div>
-												<h4 className="mb-2 font-w700">Quick Transfer</h4>
+												<h4 className="mb-2 font-w700">Transferencias</h4>
 												<span className="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
 											</div>
 											<Dropdown className="dropdown">
@@ -407,7 +407,7 @@ const Home = () => {
 									<div className="card">
 										<div className="card-header border-0 pb-0">
 											<div>
-												<h4 className="mb-2 fs-20 font-w700">Bar Spendings</h4>
+												<h4 className="mb-2 fs-20 font-w700">Gastos recurrentes</h4>
 												<span className="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
 											</div>
 											
