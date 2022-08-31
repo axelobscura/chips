@@ -6,11 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="copyright">
         <p>
-          Copyright © Designed &amp; Developed by{" "}
-          <a href="http://dexignlab.com/" target="_blank" rel="noreferrer">
-            DexignLab
-          </a>{" "}
-          {d.getFullYear()}
+          © {d.getFullYear()} Todos Los Derechos Reservados &amp; Desarrollado por Azul
         </p>
       </div>
     </div>
