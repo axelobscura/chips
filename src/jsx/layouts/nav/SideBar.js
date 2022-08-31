@@ -224,7 +224,7 @@ const SideBar = () => {
             <ul >
               <li><Link className={`${path === "dashboard" ? "mm-active" : ""}`} to="/dashboard"> Dashboard Light</Link></li>
               <li><Link className={`${path === "dashboard-dark" ? "mm-active" : ""}`} to="/dashboard-dark"> Dashboard Dark</Link></li>
-              <li><Link className={`${path === "wallet" ? "mm-active" : ""}`} to="/wallet">My Wallet</Link></li>
+              <li><Link className={`${path === "cartera" ? "mm-active" : ""}`} to="/cartera">Mi cartera</Link></li>
               <li><Link className={`${path === "invoices-list" ? "mm-active" : ""}`} to="/invoices-list"> Invoices</Link></li>
               <li><Link className={`${path === "create-invoices" ? "mm-active" : ""}`} to="/create-invoices">Create Invoices</Link></li>
               <li><Link className={`${path === "card-center" ? "mm-active" : ""}`} to="/card-center">Card-Center</Link></li>
@@ -236,7 +236,7 @@ const SideBar = () => {
           <li className={`${app.includes(path) ? "mm-active" : ""}`}>
             <Link className="has-arrow ai-icon" to="#" >
               <i className="fas fa-info-circle"></i>
-              <span className="nav-text">Apps</span>
+              <span className="nav-text">Aplicaciones</span>
             </Link>
             <ul >
               <li><Link className={`${path === "app-profile" ? "mm-active" : ""}`} to="/app-profile">Profile</Link></li>
@@ -265,7 +265,7 @@ const SideBar = () => {
           <li className={`${charts.includes(path) ? "mm-active" : ""}`}>
             <Link className="has-arrow ai-icon" to="#" >
               <i className="fas fa-chart-line"></i>
-              <span className="nav-text">Charts</span>
+              <span className="nav-text">Gráficas</span>
             </Link>
             <ul >
               <li><Link className={`${path === "chart-rechart" ? "mm-active" : ""}`} to="/chart-rechart">RechartJs</Link></li>

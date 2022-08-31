@@ -120,7 +120,7 @@ const Markup = () => {
     { url: "", component: Home },
     { url: "dashboard", component: Home },
     { url: "dashboard-dark", component: DashboardDark },
-    { url: "wallet", component: MyWallet },
+    { url: "cartera", component: MyWallet },
     { url: "invoices-list", component: InvoicesList },
     { url: "create-invoices", component: CreateInvoices },
     { url: "card-center", component: CardCenter },
