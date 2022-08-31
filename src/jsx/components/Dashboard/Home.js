@@ -84,7 +84,7 @@ const Home = () => {
 										</span>
 										<div className="invoices">
 											<h4>983</h4>
-											<span>Paid Invoices</span>
+											<span>Facturas pagadas</span>
 										</div>
 									</div>
 								</div>
@@ -109,7 +109,7 @@ const Home = () => {
 										</span>
 										<div className="invoices">
 											<h4>1,256</h4>
-											<span>Unpaid Invoices</span>
+											<span>Facturas no pagadas</span>
 										</div>
 									</div>
 								</div>
@@ -135,7 +135,7 @@ const Home = () => {
 										</span>
 										<div className="invoices">
 											<h4>652</h4>
-											<span>Total Invoices</span>
+											<span>Total Facturas</span>
 										</div>
 									</div>
 								</div>
