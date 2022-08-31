@@ -1,7 +1,7 @@
 {
   "name": "invome",
   "version": "0.1.0",
-  "homepage": "https://chips-kappa.vercel.app/",
+  "homepage": "https://invomex.vercel.app/",
   "private": true,
   "dependencies": {
     "@asseinfo/react-kanban": "^2.2.0",
